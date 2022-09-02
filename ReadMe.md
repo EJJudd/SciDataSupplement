@@ -13,4 +13,4 @@ To view the quality control spreadsheets, please visit paleo-temperature.org or 
 * Outcrop data: https://docs.google.com/spreadsheets/d/e/2PACX-1vRi32Mp-KtyCzt43nQ_ljpGM85fN-A7mnnFJ1o5Q-bF8dKTEZpDvDA5J5W_McoTK7RohSpPV4mMxZnI/pubhtml
 * Foraminiferal taxonomy: https://docs.google.com/spreadsheets/d/e/2PACX-1vRWpolW-OSNhZMd3_8-sQ26yipR1FR2KsxYSHlIIavZfF2wCmrRKM3aVwRArtE9J1gy0j2tJlmoUIPM/pubhtml
 
-To access the PhanSST database, visit the PhanSST website (paleo-temperature.org) or the PhanSST GitHub repository (https://github.com/EJJudd/PhanSST).
+To access the PhanSST database, visit the PhanSST website (https://paleo-temperature.org) or the PhanSST GitHub repository (https://github.com/EJJudd/PhanSST).
