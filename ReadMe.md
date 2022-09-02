@@ -6,7 +6,7 @@ Created: September 2022 (E. Judd)
 <br /> Contact: ejjudd@syr.edu or phansst@outlook.com
 
 This repository contains supplementary information related to the 
-manuscript: *The PhanSST global database of Phanerozoic sea surface temperature proxy data* (Judd et al., submitted, Scientific Data), including scripts to run the automated QC procedures and example scripts, and functions to generate the figures in the paper.
+manuscript: *The PhanSST global database of Phanerozoic sea surface temperature proxy data* (Judd et al., submitted, Scientific Data), including scripts to run the automated QC procedures and example scripts and functions to generate the figures in the paper.
 
 To view the quality control spreadsheets, please visit paleo-temperature.org or use the following links:
 * Drill core data: https://docs.google.com/spreadsheets/d/e/2PACX-1vTs8zmQyOINP7TqLaI2emuplMQaYMcM24z6tbsV1pnNZ5N5zXVkj-3SweGxlZyu6WCDhLQGPdzAg6zX/pubhtml
