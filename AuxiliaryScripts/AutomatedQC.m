@@ -78,7 +78,7 @@ opts = setvaropts(opts,stringfields,'FillValue',"");
 % (3) Load PhanSST data & GTS2020 information (available in supplemental
 %     files)
 PhanSST = readtable(filename, opts);
-GTS = readtable("StageNamesandAges.xlsx");
+load("GTS2020.mat")
 shapefilename = "World_Countries__Generalized_.shp";
 
 %% Part 2: AUTOMATED CHECKS
