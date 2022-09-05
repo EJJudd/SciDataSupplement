@@ -12,8 +12,8 @@
 % Files needed:
 %   (1): PhanSST database (E. Judd et al., 2022) 
 %        available via paleo-temperature.org & figshare
-%   (2): StageNamesandAges (E. Judd et al., 2022)
-%        available via paleo-temperature.org, figshare, & Github
+%   (2): GTS202.mat (E. Judd et al., 2022)
+%        available via Github
 %   (3): World countries shape file 
 %        https://www.arcgis.com/home/item.html?id=170b5e6529064b8d9275168687880359
 % Auxillary functions needed
