@@ -10,9 +10,9 @@
 
 % Files needed:
 %   (1): PhanSST database (E. Judd et al., 2022) 
-%        available via paleo-temperature.org & figshare
-%   (2): StageNamesandAges (E. Judd et al., 2022)
-%        available via paleo-temperature.org, figshare, & Github
+%        available via paleo-temperature.org & Zenodo (see manuscript)
+%   (2): GTS2020.mat (E. Judd et al., 2022)
+%        available via Github
 % Auxillary functions needed
 %   (1): hex2rgb - (C. Greene, 2022) available on MATLAB file exchange:
 %        https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb
