@@ -24,7 +24,6 @@
 % (a) Direct filepath 
 % (*MODIFY TO REFLECT END USER'S FILEPATHS AND PREFERRED FIGURE NAME)
 datafilename = 'PhanSST_v001.csv';
-stagefilename = 'StageNamesandAges.csv';
 figname = 'Fig4_AllDataByEntriesAndSite.png';
 
 % (b) Indicate which fields are strings vs. numeric values
@@ -45,7 +44,7 @@ opts = setvaropts(opts,stringfields,'FillValue',"");
 % (c) Load PhanSST data & GTS2020 information (available in supplemental
 %     files)
 PhanSST = readtable(datafilename, opts);   
-GTS = readtable(stagefilename);
+load("GTS2020.mat","GTS")
 
 %% PART (2) PRE-TREAT DATA
 %  (a) Assign bin range and means
