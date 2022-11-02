@@ -10,7 +10,7 @@
 
 % Files needed:
 %   (1): PhanSST database (E. Judd et al., 2022) 
-%        available via paleo-temperature.org & figshare
+%        available via paleo-temperature.org & Zenodo (see manuscript)
 % Auxillary functions needed
 %   (1): hex2rgb - (C. Greene, 2022) available on MATLAB file exchange:
 %        https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb
