@@ -10,9 +10,9 @@
 
 % Files needed:
 %   (1): PhanSST database (E. Judd et al., 2022) 
-%        available via paleo-temperature.org & figshare
-%   (2): StageNamesandAges (E. Judd et al., 2022)
-%        available via paleo-temperature.org, figshare, & Github
+%        available via paleo-temperature.org & Zenodo (see manuscript)
+%   (2): GTS2020.mat (E. Judd et al., 2022)
+%        available on GitHub
 % Auxillary functions needed
 %   (1): hex2rgb - (C. Greene, 2022) available on MATLAB file exchange:
 %        https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb
@@ -24,7 +24,6 @@
 % (a) Direct filepath 
 % (*MODIFY TO REFLECT END USER'S FILEPATHS AND PREFERRED FIGURE NAME)
 datafilename = 'PhanSST_v001.csv';
-stagefilename = 'StageNamesandAges.csv';
 figname = 'Fig5_EntriesByProxy.png';
 
 % (b) Indicate which fields are strings vs. numeric values
@@ -44,8 +43,7 @@ opts = setvaropts(opts,stringfields,'FillValue',"");
 
 % (c) Read in PhanSST Database
 PhanSST = readtable(datafilename,opts);    
-GTS = readtable(stagefilename);
-
+load("GTS2020.mat","GTS")
 
 %% PART(2) PLOT FIGURE
 % (a) Create figure & specify proxy name labels and colors and proxy order
